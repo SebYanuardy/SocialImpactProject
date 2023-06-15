@@ -17,3 +17,6 @@ Things that need to be fixed:
     - Need to slow down the sliding from one sections to the other
     - Find a way to add the backend 
 
+Things that need to be added:
+    LOGIN screen so the user can manage what service they need and save preferances 
+
