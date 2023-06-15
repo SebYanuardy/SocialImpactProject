@@ -1,0 +1,19 @@
+VERSION1 
+Things Added: 
+
+    - i added the ability to scroll down to different sections of the main page 
+    - i also added the transparent nav bar to the top 
+    - buttons that somewhat work they work where if you press on them they will go to 
+    the slide that you want 
+    - buttons added to the top 
+
+
+Things that need to be fixed: 
+
+    -I need to fix the button where if it is on the current page then it will highlight it 
+    - I also need to add the buttons and plan out the different sections
+    - Add some cool transitons to the main page as well as the information about 
+    the site 
+    - Need to slow down the sliding from one sections to the other
+    - Find a way to add the backend 
+
