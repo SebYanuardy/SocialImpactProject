@@ -156,11 +156,27 @@ section {
 }
 .page4 {
     height: 150vh;
-    display: flex;
     justify-content: center;
+    display: flex; /* Add this line */
+    flex-direction: column; /* Add this line */
     align-items: center;
-    font-size: 3rem;
     background-color: salmon;
+}
+
+.page4 h1{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    color:#fff; 
+    padding-bottom: 55px ;
+}
+.page4 p{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    display:block;
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: 75px;
 }
 
 .sidebar {
@@ -262,6 +278,16 @@ header {
 .btn2{
     
     background-color:lightgreen;
+    color:white ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn3{
+    padding-top: 100px;
+    background-color:rgb(218, 131, 122);
     color:white ;
     padding: 10px 20px;
     border-radius: 5px;
