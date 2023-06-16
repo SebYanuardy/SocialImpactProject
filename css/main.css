@@ -64,7 +64,7 @@ section {
 
 .page2 {
     
-    height: 150vh;
+    height: 175vh;
     justify-content: center;
     display: flex; /* Add this line */
     flex-direction: column; /* Add this line */
@@ -112,13 +112,48 @@ section {
 
 .page3 {
     height: 150vh;
-    display: flex;
     justify-content: center;
+    display: flex; /* Add this line */
+    flex-direction: column; /* Add this line */
     align-items: center;
-    font-size: 3rem;
     background-color: cornflowerblue;
 }
+.service-boxes{
+    display:flex; /* Makes it horßizontal */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 250px;
+}
+.box1, .box2, .box3, .box4{
+    width:250px;
+    
+    padding: 15px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
 
+
+.page3 h1{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    color:#fff; 
+    padding-bottom: 55px ;
+}
+.page3 h2{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: #ffff;
+
+}
+.page3 p{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    display:block;
+    font-size: 1rem;
+    color: #fff;
+
+}
 .page4 {
     height: 150vh;
     display: flex;
