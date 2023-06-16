@@ -44,6 +44,17 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   };
 
+  
+
+  learnmore.addEventListener('click',function(event) {
+    event.preventDefault();
+    page2Section.scrollIntoView({ behavior: "smooth" });
+  })
+  serve.addEventListener('click', function(event) {
+    event.preventDefault();
+    page3Section.scrollIntoView({ behavior: "smooth" });
+  })
+  
   // Add event listeners to the buttons
   page1Button.addEventListener("click", function(event) {
     event.preventDefault();
@@ -65,4 +76,3 @@ document.addEventListener("DOMContentLoaded", function() {
     page4Section.scrollIntoView({ behavior: "smooth" });
   });
 });
-
