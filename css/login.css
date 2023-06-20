@@ -99,6 +99,7 @@ span{
     font-size: medium;
     display: flex;
     justify-content: center;
+    padding-bottom:10px;
     padding: 10px 0 10px
 
 }
@@ -121,8 +122,9 @@ span{
   top: 50%;
   transform: translateY(-50%);
   left: 15px;
-  color: #000;
+  color: lightslategray;
   background-color: transparent;
+  padding-left: 10px;
 }
   
 .input{
@@ -138,7 +140,7 @@ span{
 }
 
 ::-webkit-input-placeholder{
-    color:#000;
+    color:lightslategray;
     font-size: 12.5px;
 }
 .submit{
@@ -168,8 +170,19 @@ span{
 .left{
     display: flex;
 }
+.left label check{
+    padding-left: 30px;
+}
 label a{
     color:#fff;
     text-decoration: none;
 }
 
+.signupheader{
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding: 10px 0 10px 0;
+}
